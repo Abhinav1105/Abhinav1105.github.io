@@ -793,6 +793,11 @@ section {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
   }
+  .about-container .rightt-about {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+    margin-top: 1rem;
+  }
   .about-container .left-about {
     padding-right: 0;
   }
@@ -906,6 +911,10 @@ section {
     margin-top: 6rem;
   }
 
+  .about-container .rightt-about {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .portfolios {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -916,6 +925,10 @@ section {
 }
 @media screen and (max-width: 660px) {
   .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-container .rightt-about {
     grid-template-columns: repeat(1, 1fr);
   }
 
